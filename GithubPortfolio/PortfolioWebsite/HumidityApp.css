@@ -1,0 +1,83 @@
+/* body {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+} */
+
+body {
+    background-color: #01070d;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+h2 {
+    /* color: #50aaf2; */
+    color: #0774e0;
+}
+
+#mainbody-div {
+    margin: auto;
+    padding: 50px;
+    /* text-align: center; */
+    /* width: 65%; */
+    width: 80%;
+    /* color: #50aaf2; */
+    color: #02407d;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b3d4f5;
+    border-radius: 10px;
+}
+
+
+#diagram-img {
+    /* margin: 70%; */
+    width: 80%;
+}
+
+#media-div {
+    text-align: center;
+}
+
+
+#project-devices {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+#app-video {
+    width: 75%;
+    /* height: 200px; */
+}
+
+a:link {
+    color: #f58905;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #f2ef88;
+  }
+  
+  /* selected link */
+  a:active {
+    color: red;
+  }
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
