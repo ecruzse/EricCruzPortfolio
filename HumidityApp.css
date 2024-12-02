@@ -30,6 +30,10 @@ h2 {
     border-radius: 10px;
 }
 
+#aboutproject-div {
+    width: auto;
+    font-size: large;
+}
 
 #diagram-img {
     /* margin: 70%; */
@@ -42,8 +46,9 @@ h2 {
 
 
 #project-devices {
-    width: 450px;
-    height: 450px;
+    /* width: 450px; */
+    /* height: 450px; */
+    width: 70%;
     border-radius: 20px;
 }
 
